@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <link rel="stylesheet" href="style.css">
+        <div class="menu_rod">
+            <button onclick="myFunction()" class="menu">Меню</button>
+            <div id="Menu" class="menu_doch">
+                <a href="1.html"> 
+                    <div class = "cnop">
+                        Кирпичи
+                    </div>
+                </a>
+                <a href="2.html"> 
+                    <div class = "cnop">
+                        Доски
+                    </div>
+                </a>
+                <a href="3.html"> 
+                    <div class = "cnop">
+                        Цемент
+                    </div>
+                </a>
+                <a href="4.html">
+                     <div class = "cnop">
+                        Профлист
+                    </div>
+                </a>
+                <a href="5.html">
+                     <div class = "cnop">
+                        Краска
+                    </div>
+                </a>
+                <a href="6.html">
+                     <div class = "cnop">
+                        Утеплитель
+                    </div>
+                </a>
+            </div>
+          </div>
+        <div class = "log_num">
+            <div class = "log">
+                <img src="логотип.jpg" width="100" height="100">
+            </div>
+            <div class = "num">Номер для связи<br>8-800-555-35-35</div>
+            <div class = "naz_glav">Всё для стройки</div>
+            <div class = "soc">
+                <div class = "schap_soc">Наши соц. сети:</div>
+                <div class = "telo_soc">
+                    <div class = "vk"> <a href="https://vk.com/d.e.n_lv"><div class = "vk_log"> <img src="вк2.png" width="50" height="40"></div><div class = "vk_text">ВК</div></a></div>
+                    <div class = "vk"> <a href="https://vk.com/d.e.n_lv"><div class = "vk_log"> <img src="вк2.png" width="50" height="40"></div><div class = "vk_text">ВК</div></a></div>
+                </div>
+            </div>
+        </div>
+        <div class = "pics">
+            <div class = "stro"></div>
+        </div>
+        <body bgcolor="000000"></body>
+        <script>
+            function myFunction() {
+                document.getElementById("Menu").classList.toggle("show");
+            }
+            window.onclick = function(event) {
+              if (!event.target.matches('.menu')) {
+                var dropdowns = document.getElementsByClassName("menu_doch");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+            </script>        
+</body>
+</html>

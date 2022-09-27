@@ -1,0 +1,222 @@
+
+        .pics {
+            display: flex;
+            flex-direction: column;
+        }    
+        .stro {
+            background-image: url("фон.jpg");
+            color: #fff;
+            width: 1500px; 
+            height: 524px; 
+            margin-bottom: 5px; 
+            margin-top: 15px; 
+            display: flex;
+           
+        }
+        .cnops {
+            display: flex;
+            flex-direction: row;
+        }
+        .cnop {
+            width: 195px; 
+            height: 30px; 
+            background: #000000;
+            border: solid 3px white; 
+            color: #fff;
+            margin-left: 3px;
+            text-align:center;
+            font-size: 20px;
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+        .log_num {
+            width: 1500px; 
+            height: 110px;
+            background: #000000;
+            border: solid 5px black; 
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color:#fff;
+            margin-top: 5px; 
+        }
+        .log {
+            width: 100px; 
+            height: 100px;
+            background: #000000;
+            color:#fff;
+        }
+        .num {
+            width: 140px; 
+            height: 100px;
+            background: #000000;
+            color:#fff;
+            padding-left: 10px; 
+            padding-bottom: 0px; 
+            margin-left: 5px; 
+        }  
+        .naz_glav {
+            width: 1000px; 
+            height: 100px;
+            background: #000000;
+            color:#fff;
+            display: flex;
+            padding-left: 10px; 
+            padding-bottom: 0px; 
+            margin-left: 5px; 
+            font-size: 60px;
+            text-align: center;
+        }      
+        a {
+            text-decoration: none;
+            color:#fff;
+        } 
+        .naz_dr {
+            width: 1430px; 
+            height: 100px;
+            background: #000000;
+            color:#fff;
+            font-size: 60px;
+            display: flex;
+            margin: auto;
+            text-align: center;
+        }  
+        .tovari {
+            display: flex;
+            flex-direction: row;
+        }    
+        .tovar {
+            width: 300px; 
+            height: 400px;
+            background: #000000;
+            color:#fff; 
+            font-size: 20px;
+            border: solid 3px white;
+            margin: auto; 
+            margin-top: 10px;
+        }    
+        .tovar_pic {
+            width: 280px; 
+            display: flex;
+            height: 300px;
+            background: #000000;
+            color:#fff; 
+            border: solid 3px white;
+            margin: auto; 
+            padding: 1px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .tovar_inf {
+            width: 280px; 
+            height: 70px;
+            background: #000000;
+            color:#fff; 
+            border: solid 3px white;
+            margin: auto; 
+            display: flex;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }        
+        .yslov{
+            width: 1430px; 
+            display: flex;
+            height: 70px;
+            background: #000000;
+            color:#fff; 
+            border: solid 3px black;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 15px;
+            padding: left 1300px;  ;
+            margin: auto;
+        }     
+        .nazad{
+            width: 150px; 
+            display: flex;
+            height: 20px;
+            background: #000000;
+            color:#fff; 
+            border: solid 3px white;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 15px;
+        }           
+        .menu {
+            background-color: black;
+            border: solid 3px white;
+            color: white;
+            font-size: 16px;
+            width: 234px; 
+            height: 40px;
+            text-align: center;
+            text-shadow: 1px 0 1px #000, 0 1px 1px #000,  -1px 0 1px #000,  0 -1px 1px #000;
+        }
+        .menu:hover,.menu:focus {
+            background-color:white;
+        } 
+        .menu_rod {
+            position: relative;
+            display: inline-block;
+        }
+        .menu_doch {
+            display: none;
+            position: absolute;
+            background-color: black;
+            min-width: 230px;
+            padding: 5px 8px;
+        }
+        .show {
+            display: block;
+        }
+        .soc{
+            width: 150px; 
+            height: 100px;
+            background: #000000;
+            color:#fff; 
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .schap_soc{
+            width: 144px; 
+            height: 20px;
+            background: #000000;
+            color:#fff; 
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .telo_soc{
+            width: 144px; 
+            height: 56px;
+            background: #000000;
+            color:#fff; 
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+        .vk{
+            width: 300px; 
+            height: 150px;
+            background: #000000;
+            color:#fff; 
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 20px;
+            display: inline;
+        }
+        .vk_log{
+            width: 50px; 
+            height: 40px;
+            background: #000000;
+        }
+        .vk_text{
+            width: 100px; 
+            height: 40px;
+            background: #000000;
+            color:#fff; 
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
